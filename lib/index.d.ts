@@ -17,4 +17,6 @@ export interface MediumImageProps {
   zoomImageText?: string
 }
 
-export declare function MediumImage(props: MediumImageProps): JSX.Element
+declare function MediumImage(props: MediumImageProps): JSX.Element
+
+export default MediumImage
